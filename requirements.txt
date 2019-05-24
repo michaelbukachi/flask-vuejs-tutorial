@@ -1,0 +1,11 @@
+Flask==1.0.2
+flask-restplus==0.12.1
+Flask-SQLAlchemy==2.4.0
+Flask-Migrate==2.4.0
+psycopg2-binary==2.7.7
+gunicorn==19.9.0
+gevent==1.4.0
+psycogreen==1.0.1
+pytest==4.0.2
+pytest-cov==2.6.1
+pytest-mock==1.10.1
