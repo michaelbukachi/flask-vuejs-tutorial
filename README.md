@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/michaelbukachi/flask-vuejs-tutorial.svg?branch=master)](https://travis-ci.org/michaelbukachi/flask-vuejs-tutorial)
+
 ## flask-vuejs-tutorial
 
 A tutorial to integrate Vue.js with flask
