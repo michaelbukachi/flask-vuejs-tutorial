@@ -4,8 +4,7 @@ language: python
 python:
   - "3.6"
 env:
-  - CI_TEST=true
-  - FLASK_APP=wsgi:app
+  - CI_TEST=true, FLASK_APP=wsgi:app
 before_install:
   - curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
   - sudo apt-get install nodejs
