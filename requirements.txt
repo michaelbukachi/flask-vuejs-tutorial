@@ -6,7 +6,7 @@ psycopg2-binary==2.7.7
 gunicorn==19.9.0
 gevent==1.4.0
 psycogreen==1.0.1
-pytest==4.0.2
-pytest-cov==2.6.1
+pytest==5.2.1
+pytest-cov==2.8.1
 pytest-mock==1.10.1
 selenium==3.141.0
