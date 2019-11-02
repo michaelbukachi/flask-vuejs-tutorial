@@ -15,7 +15,8 @@ install:
   - npm run build
   - cd ..
 before_script:
+  - chmod +x wait-for-it.sh
   - flask run &
-  - sleep 3
+  - ./wait-for-it.sh -h localhost -p 5000 -t 10
 script:
 - pytest tests/
